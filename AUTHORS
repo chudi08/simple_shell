@@ -1,6 +1,4 @@
-#!/bin/sh
+# This file lists all contributors to this repository
 
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
+Vivian Onwumere <chigozievivianonwumere9@gmail.com>
+Chudi Ukaga <chudiukaga082gmail.com>
